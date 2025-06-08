@@ -29,24 +29,10 @@ void moverRainha(int casas) {
 
 // ================== CAVALO ==================
 void moverCavalo() {
-    const int movimentosVerticais = 2;
-    const int movimentosHorizontais = 1;
-
     printf("Movimento do Cavalo:\n");
-
-    for (int i = 0; i < 3; i++) { // controle vertical
-        for (int j = 0; j < 3; j++) { // controle horizontal
-            if (i == 2 && j == 1) {
-                printf("Cima\n");
-                printf("Cima\n");
-                printf("Direita\n");
-                break; // encontramos a movimentação correta
-            } else {
-                continue; // ignora as combinações incorretas
-            }
-        }
-        break;
-    }
+    printf("Cima\n");
+    printf("Cima\n");
+    printf("Direita\n");
 }
 
 // ================== MAIN ==================
